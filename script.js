@@ -11,4 +11,3 @@ var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
 document.getElementById('day').innerHTML = Difference_In_Days
 
 
-document.getElementsByTagName('div')[0].hidden = true
