@@ -1,0 +1,48 @@
+@font-face {
+    font-family: deathfont;
+    src: url(./font/Death_Note_Font_by_Karlibell22.ttf);
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262727;
+}
+
+h1{
+    font-family: deathfont;
+    color: #ffffff;
+}
+
+span{
+    font-size: 32px;
+}
+p{
+    text-align: center;
+    font-family: deathfont;
+    color: #665957;
+}
+
+.title{
+    margin-top: 50%;
+}
+
+.main_container{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.time_title{
+    font-family: deathfont;
+    color: #ffffff;
+    font-size: 62px;
+}
